@@ -1,0 +1,56 @@
+SweetPea-Style-Default
+
+The first experimental custom scaffolding style for SweetPea. Works but
+experimental, not sure if SweetPea users even want this.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+	
+	-or-
+	
+	cpan SweetPea::Style::Default;
+	
+USAGE
+
+	... at the cli (command-line interface)
+	perl -MSweetPea::Style::Default -e makeapp
+	
+
+SUPPORT AND DOCUMENTATION
+
+After installing, you can find documentation for this module with the
+perldoc command.
+
+    perldoc SweetPea::Style::Default
+
+You can also look for information at:
+
+    RT, CPAN's request tracker
+        http://rt.cpan.org/NoAuth/Bugs.html?Dist=SweetPea-Style-Default
+
+    AnnoCPAN, Annotated CPAN documentation
+        http://annocpan.org/dist/SweetPea-Style-Default
+
+    CPAN Ratings
+        http://cpanratings.perl.org/d/SweetPea-Style-Default
+
+    Search CPAN
+        http://search.cpan.org/dist/SweetPea-Style-Default/
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2009 Al Newkirk
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
+
