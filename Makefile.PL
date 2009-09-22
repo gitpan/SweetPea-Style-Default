@@ -1,16 +1,14 @@
 use strict;
 use warnings;
-use ExtUtils::MakeMaker;
+use inc::Module::Install;
 
 WriteMakefile(
     NAME                => 'SweetPea::Style::Default',
     AUTHOR              => q{Al Newkirk <al.newkirk@awnstudio.com>},
     VERSION_FROM        => 'lib/SweetPea/Style/Default.pm',
     ABSTRACT_FROM       => 'lib/SweetPea/Style/Default.pm',
-    ($ExtUtils::MakeMaker::VERSION >= 6.3002
-      ? ('LICENSE'=> 'perl')
-      : ()),
-    PL_FILES            => {},
+    LICENSE => 'perl',
+    PL_FILES => {},
     PREREQ_PM => {
         'Test::More' => 0,
         'Data::FormValidator' => 0,

@@ -1,6 +1,8 @@
 package SweetPea::Style::Default;
 use base 'SweetPea';
 
+our $VERSION = '0.02';
+
 BEGIN {
     use Exporter();
     use vars qw( @ISA @EXPORT @EXPORT_OK );
@@ -783,12 +785,9 @@ SweetPea::Style::Default - The great new SweetPea::Style::Default!
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
-
-our $VERSION = '0.01';
-
 
 =head1 SYNOPSIS
 
